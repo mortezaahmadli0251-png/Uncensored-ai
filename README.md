@@ -120,10 +120,6 @@ Disallowed content:
 ```
 User types a message
        ↓
-Cloudflare Turnstile (invisible human verification)
-       ↓
-Next.js Edge API Route (/api/route.js)
-       ↓
   ┌─── Upstash Redis Rate Limiter (5 req/min per IP)
   │         ↓ (if allowed)
   └─── Custom Jailbreak System Prompt injected
